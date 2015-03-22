@@ -1,0 +1,51 @@
+div{border-radius:5px;
+font-family:Verdana;}
+
+#header{position:fixed;
+z-index:1;
+width:97.5%;
+height:50px;
+background-color:#e08870;
+margin-top:-5px;
+margin-bottom:10px;
+}
+
+#header p {display:inline;
+font-weight:bold;
+font-size:18px;
+font-family:}
+
+#name{float:left}
+
+a{text-decoration:none;
+color:black;}
+
+#email{float:right;}
+
+a:hover{color:#602543;
+   }
+
+
+.left{position:relative;
+    margin-top:40px;
+    width:13%;
+    height:400px;
+    float:left;
+    background-color:#c73e4e;
+    clear:both;
+    margin-bottom:10px;}
+    
+.right{position:relative;
+    margin-top:40px;
+    float:right;
+    width:85%;
+    height:400px;
+    background-color:#ca9167;
+    margin-bottom:10px;
+}
+
+#footer{height:50px;
+margin-top:10px;
+    width:97.5%;
+    background-color:#761b3c;
+    clear:both;
