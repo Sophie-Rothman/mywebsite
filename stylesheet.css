@@ -1,19 +1,23 @@
 div{border-radius:5px;
 font-family:Verdana;}
 
-#header{position:fixed;
-z-index:1;
-width:97.5%;
-height:50px;
+
+
+#header{position:relative;
+width:99%;
+height:100px;
 background-color:#e08870;
-margin-top:-5px;
-margin-bottom:10px;
+margin-top:-1%;
+margin-bottom:3%;
 }
 
-#header p {display:inline;
+#header>p {position:relative;
+    display:inline;
 font-weight:bold;
-font-size:18px;
-font-family:}
+font-size:30px;
+font-family: sans-serif;
+text-align:center;
+}
 
 #name{float:left}
 
@@ -29,23 +33,98 @@ a:hover{color:#602543;
 .left{position:relative;
     margin-top:40px;
     width:13%;
-    height:400px;
+    height:500px;
     float:left;
     background-color:#c73e4e;
     clear:both;
-    margin-bottom:10px;}
+    margin-bottom:10px;
+    padding-top:5%;}
     
 .right{position:relative;
     margin-top:40px;
     float:right;
     width:85%;
-    height:400px;
+    height:500px;
     background-color:#ca9167;
     margin-bottom:10px;
+    padding-top:5%;
 }
 
-#footer{height:50px;
-margin-top:10px;
-    width:97.5%;
+.footer{position:relative;
+    height: 70px;
+
+    width:100%;
     background-color:#761b3c;
     clear:both;
+} 
+/*above is the css from the resume, below is that from the landing page.*/
+
+#Landing{
+    text-align: center;
+    padding-top: ;
+    background-image: url(images/background.jpg);
+    background-size:100%;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+
+#headshot{height: 25%;
+        width: 25%;
+        border-radius: 100%;
+        padding-top:3%;
+}
+        
+button{background-color: red;
+        height: 90px;
+        width: 150px;
+        font-size: 35px;
+        color: grey;
+        margin-bottom:200px;
+    }
+
+textarea{height: 15%;
+            width: 400px;
+            font-size: 35px;
+            color: grey;
+        }
+#facebook{
+        color: #FF7F50;
+        text-decoration: none;
+    }
+    
+
+form{
+        text-align: center; 
+    }
+a:hover{color: brown;
+    }
+
+#gallery{background-color:#c73e4e;
+}
+
+.picture{float:left;
+    height:50%;
+    width:40%;
+    background-color:#ca9167;
+    padding:1%;
+    border:1px solid black;
+    margin:2%;
+}
+
+
+.picture img{height:80%;
+width:40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
