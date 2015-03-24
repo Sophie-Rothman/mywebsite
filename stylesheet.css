@@ -1,7 +1,6 @@
+
 div{border-radius:5px;
 font-family:Verdana;}
-
-
 
 #header{position:relative;
 width:99%;
@@ -24,14 +23,15 @@ text-align:center;
 a{text-decoration:none;
 color:black;}
 
-#email{float:right;}
+#email{float:right;
+font-size: 30px;}
 
 a:hover{color:#602543;
    }
 
 
 .left{position:relative;
-    margin-top:40px;
+    margin-top:0px;
     width:13%;
     height:500px;
     float:left;
@@ -41,7 +41,7 @@ a:hover{color:#602543;
     padding-top:5%;}
     
 .right{position:relative;
-    margin-top:40px;
+    margin-top: 0px;
     float:right;
     width:85%;
     height:500px;
@@ -113,8 +113,8 @@ a:hover{color: brown;
 }
 
 
-.picture img{height:80%;
-width:40%;
+.picture img{height: 300px;
+width:400px;
 }
 
 
